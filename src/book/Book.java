@@ -9,6 +9,8 @@ import javax.ws.rs.core.MediaType;
 @Path("/book")
 public class Book {
 	
+	String x;
+	
 	@GET
 	@Produces(MediaType.TEXT_XML)
 	
